@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #2d2d2d;
+}
+
+.img-kategori {
+    width: 80px;
+}
+
+.img-kategori:hover{
+    transform: scale(1.5);
+}
+
+.menu-kategori{
+    overflow: hidden;
+}
+
+.menu-kategori img{
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+.banner{
+	height: 60vh;
+    margin-top: 15px;
+	background-image: url(../img/melon.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 161, 27, 0.6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.row-container{
+    background-color: #c7c7c7;
+    margin: 0px;
+
+}
+
+footer{
+	padding: 20px 0;
+    margin-top: 15px;
+    font-size: 15px;
+	background-color: #00771e;
+	color: #FFC300;
+	text-align: center;
+}
+
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #00771e;
+}
+.about p{
+	color: #242424;
+	word-spacing: 2px;
+	line-height: 25px;
+}
